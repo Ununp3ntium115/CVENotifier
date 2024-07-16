@@ -25,8 +25,8 @@ go install github.com/dark-warlord14/CVENotifier/cmd/CVENotifier@latest
 keywords:
 - Floodlight
 - wordpress
-slackWebhook:
-- https://hooks.slack.com/services/<id>/<id>
+httpPush:
+- https://azure.workflow.addressurl
 ```
 
 2. Run the tool on a regular interval (e.g., every few hours) to fetch the latest feeds and receive notifications for new CVEs. Its recommended to setup a cron job for this.
@@ -39,8 +39,8 @@ cronjob example
 0 * * * * user CVENotifier -config config.yaml 2>&1 | tee CVENotifier.log
 ```
 
-## Slack Notification
-![Slack notification](slack.png)
+## Teams Notification
+![Workflow Notification](TeamsWorkflow.png)
 
 ## To-do
 
