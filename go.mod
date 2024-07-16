@@ -1,4 +1,4 @@
-module github.com/dark-warlord14/CVENotifier
+module github.com/Ununpentum/CVENotifier
 
 go 1.22.2
 

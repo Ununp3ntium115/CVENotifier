@@ -1,5 +1,5 @@
 keywords:
 - Floodlight
 - wordpress
-slackWebhook:
-- https://hooks.slack.com/services/<>/<>
+httpPush:
+- https://azure.workflow.addressurl
